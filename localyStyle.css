@@ -1,0 +1,464 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+
+    width: 100%;
+    position: fixed;
+    background-color:  #f2f7ff;
+    
+}
+
+nav{
+
+    display: flex;
+    padding: 21px;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.nav_menu_logo {
+
+    display: flex;
+    width: 210px
+
+}
+
+nav ul{
+
+    margin-right: 150px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 60px;
+
+}
+
+nav ul li a {
+
+    color: green;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 8px;;
+    border-radius: 18px;
+    transition: 0.2s ease-in-out;
+
+} 
+
+nav ul li a:hover {
+
+    color: greenyellow;
+    background-color: rgb(205, 205, 240);
+
+}
+
+button{
+
+    cursor: pointer;
+
+    border: none;
+
+    background: none;
+
+}
+
+.hero_section{
+
+    padding: 60px 80px;
+    display: flex;
+    background-color: #fdf6ec;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+
+}
+
+.hero_section .hero_content{
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.hero_section .hero_content .hero_title{
+
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333333;
+}
+
+.hero_section .hero_content .hero_subtitle{
+
+    font-size: 28px;
+    font-weight: bold;
+    color: #4caf50;
+    margin-top: 16px;
+
+}
+
+.hero_section .hero_content .hero_description{
+
+    font-size: 20px;
+    color: #555555;
+    margin: 24px 0;
+
+}
+
+.hero_section .hero_details .hero_buttons{
+
+    display: flex;
+    margin-top: 21px;
+    gap: 21px;
+
+}
+
+.hero_shopBtn, .hero_sellBtn {
+
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 28px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: 0.2s ease;
+
+}
+
+.hero_shopBtn{
+
+    color: white;
+    background-color: #4caf50;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 28px;
+    border: 2px solid transparent;
+    border-radius: 21px;
+    transition: 0.2s ease;
+
+}
+
+.hero_shopBtn:hover{
+
+    background-color: white;
+    color: #4caf50;
+
+}
+
+.hero_sellBtn{
+
+    color: #4caf50;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 28px;
+    border: 2px solid transparent;
+    border-radius: 21px;
+    transition: 0.2s ease;
+
+}
+
+.hero_sellBtn:hover{
+
+    background-color: #4caf50;
+    color: white;
+
+}
+
+.hero_section .hero_image{
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+
+}
+
+.hero_image img{
+
+    max-width: 100%;
+    height: auto;
+
+}
+
+.homepage_content1{
+
+    padding: 12px 28px;
+    text-align: center;
+    background-color: #fdf6ec;
+
+}
+
+.homepage_content1 h2{
+
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 21px;
+
+}
+
+.homepage_content1 h3{
+
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 69px;
+    color: #555555;
+    max-width: 700px;
+    
+
+}
+
+.homepage_content1 .roles_container{
+
+    display: flex;
+    gap: 39px;
+    justify-content: center;
+    
+
+}
+
+.homepage_content1 .roles_container .roles{
+
+    padding: 30px 21px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+
+.homepage_content1 .roles_container .roles:hover{
+
+    background-color: #f2fff4;
+    border-color: #4caf50;
+    box-shadow: 0 9px 21px rgba(76, 175, 80, 0.2);
+    transform: translateY(-12px);
+
+}
+
+.roles img{
+
+    margin-bottom: 18px;
+    width: 60px;
+    height: 60px;
+
+}
+
+.roles h4{
+
+    font-size: 21px;
+    color: #333333;
+
+}
+
+.roles p{
+
+    margin-top: 12px;
+    font-size: 15px;
+    color: #555555;
+
+}
+
+/*    **/
+
+.homepage_content2{
+
+    padding: 80px 28px;
+    text-align: center;
+    background-color: #fdf6ec;
+
+}
+
+.homepage_content2 h2{
+
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 21px;
+
+}
+
+.homepage_content2 h3{
+
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 69px;
+    color: #555555;
+    max-width: 700px;
+    
+
+}
+
+.homepage_content2 .choice_container{
+
+    display: flex;
+    gap: 39px;
+    justify-content: center;
+    
+
+}
+
+.homepage_content2 .choice_container .choice{
+
+    padding: 30px 21px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+
+.homepage_content2 .choice_container .choice:hover{
+
+    background-color: #f2fff4;
+    border-color: #4caf50;
+    box-shadow: 0 9px 21px rgba(76, 175, 80, 0.2);
+    transform: translateY(-12px);
+
+}
+
+.choice img{
+
+    margin-bottom: 18px;
+    width: 60px;
+    height: 60px;
+
+}
+
+.choice h4{
+
+    font-size: 21px;
+    color: #333333;
+
+}
+
+.choice p{
+
+    margin-top: 12px;
+    font-size: 15px;
+    color: #555555;
+
+}
+
+footer{
+
+    padding: 60px 90px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fdf6ec;
+    border-top: 1px solid #e0e0e0;
+
+}
+
+footer article{
+
+    flex: 1;
+    margin-top: 69px;
+    margin-bottom: 30px;
+
+}
+
+footer .footer_logo .footer_logo_img{
+
+    width: 90px;
+    margin-bottom: 18px;
+
+}
+
+footer article p{
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 18px;
+
+}
+
+footer nav ul{
+
+    padding: 0;
+    list-style: none;
+
+}
+
+footer nav ul li{
+
+    display: inline;
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 18px;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+}
+
+footer nav ul li:hover{
+
+    color: #4caf50;
+
+}
+
+.footer_smLinks{
+
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e0e0e0;
+
+}
+
+.footer_smLinks .footer_copyrights p{
+
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+
+}
+
+.footer_smLinks nav ul{
+
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 21px; 
+
+}
+
+.footer_smLinks nav ul li{
+
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+footer_smLinks nav ul li:hover{
+
+    color: #4caf50;
+
+}

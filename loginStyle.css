@@ -1,0 +1,17 @@
+@media (max-width: 991.98px) {
+    .cascading-right {
+        margin-right: 0;
+    }
+}
+
+.container {
+
+    display: none;
+
+}
+
+.container.active {
+
+    display: block;
+
+}
